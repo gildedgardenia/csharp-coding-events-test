@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>coding_events_test</RootNamespace>
+  </PropertyGroup>
+
+
+
+  <ItemGroup>
+    <Folder Include="Views\Event\" />
+  </ItemGroup>
+</Project>
