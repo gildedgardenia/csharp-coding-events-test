@@ -1,0 +1,26 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    Layout = null;
+    ViewBag.Title = "Form";
+}
+
+<h4>
+    <b>Event Name:</b> @ViewBag.Name <br />
+</h4>
+
+<h4>Add Event Form</h4>
+
+    
+<form action="AddEventForm" method="post">
+    <table>
+        <tr>
+            <td>Enter Event Name:</td>
+            <td><input type="text" name="name"/></td>
+        </tr>
+        <tr>
+            <td><input type="submit" value="Submit"></td>
+        </tr>
+    </table>
+</form>
